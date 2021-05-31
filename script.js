@@ -50,7 +50,7 @@ am4core.ready(function() {
         }]
       }]
     }, {
-      name: 'Origines Vegetales',value: 10,
+      name: 'Origines vegetales',value: 10,
       children: [{
         name: 'Bois', value: 5
       }, {
