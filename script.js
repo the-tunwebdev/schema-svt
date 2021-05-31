@@ -3,7 +3,7 @@ am4core.ready(function() {
   // Themes begin
   am4core.useTheme(am4themes_animated);
   // Themes end
-  const media= window.matchMedia('(max-width:768px')
+  const media= window.matchMedia('(max-width:600px')
   var chart = am4core.create("chartdiv", am4plugins_forceDirected.ForceDirectedTree);
   chart.legend = new am4charts.Legend();
   
@@ -120,7 +120,7 @@ am4core.ready(function() {
   networkSeries.fontSize = 20;
   networkSeries.maxLevels = 2;
   if(media.matches){
-    networkSeries.maxRadius = am4core.percent(20);
+    networkSeries.maxRadius = am4core.percent(15);
 
 
   }else{
