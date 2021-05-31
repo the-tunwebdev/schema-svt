@@ -119,15 +119,14 @@ am4core.ready(function() {
   networkSeries.nodes.template.label.text = "{name}"
   networkSeries.fontSize = 20;
   networkSeries.maxLevels = 2;
-  // if(media.matches){
-  //   networkSeries.maxRadius = am4core.percent(15);
+  if(media.matches){
+    networkSeries.maxRadius = am4core.percent(15);
 
 
-  // }else{
-  // networkSeries.maxRadius = am4core.percent(10);
+  }else{
+    networkSeries.maxRadius = am4core.percent(10);
 
-  // }
-  networkSeries.maxRadius = am4core.percent(10);
+  }
   networkSeries.manyBodyStrength = -16;
   networkSeries.nodes.template.label.hideOversized = true;
   networkSeries.nodes.template.label.truncate = true;
