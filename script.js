@@ -29,7 +29,7 @@ am4core.ready(function() {
         name: 'verre', value: 5
       }, {
         name: 'Bois', value: 5
-      },, {
+      }, {
         name: 'carbonne', value: 5
       }, {
         name: 'coton/papier', value: 5
@@ -41,27 +41,41 @@ am4core.ready(function() {
     children: [{
       name: 'Origines Animales',value: 10,
       children: [{
-        name: 'Textiles Animales', value: 5
-      }, {
-        name: 'Os', value: 5
+        name: 'Textiles Animales', value: 5,
+        children: [{
+          name: 'laine', value: 5
+          
+        }, {
+          name: 'cuir', value: 5
+        }]
       }]
     }, {
       name: 'Origines Vegetales',value: 10,
       children: [{
         name: 'Bois', value: 5
       }, {
-        name: 'Celluloses', value: 5
+        name: 'Celluloses', value: 5,
+        children: [{
+          name: 'carton', value: 5
+          
+        }, {
+          name: 'papier', value: 5
+        }]
       }, {
         name: 'Plantes Textiles', value: 5
       }]}
       , {
         name: 'Origines Synthetiques',value: 10,
         children: [{
-          name: 'Elastomeres', value: 5
+          name: 'Elastomeres', value: 5,
+          children: [{
+            name: 'Silicone', value: 5
+            
+          }]
         }, {
-          name: 'Thermo durcis', value: 5
+          name: 'Thermo durcissables', value: 5
         }, {
-          name: 'Plantes Textiles', value: 5
+          name: 'Thermo Plastiques', value: 5
         }]
     }]
   }, {
