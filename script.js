@@ -120,7 +120,7 @@ am4core.ready(function() {
   networkSeries.fontSize = 20;
   networkSeries.maxLevels = 2;
   if(media.matches){
-    networkSeries.maxRadius = am4core.percent(15);
+    networkSeries.maxRadius = am4core.percent(20);
 
 
   }else{
